@@ -14,20 +14,20 @@ This tool is ideal for:
 ---
 
 ## 📁 Folder Structure
-roi_extraction_pipeline/
-├── roi_extraction.py # Main pipeline script
-├── README.md # This guide
-├── requirements.txt # Dependencies
-├── atlas/
-│ ├── atlas_image.nii.gz # Your reference atlas image
-│ └── roi_box.json # ROI defined in 3D Slicer
-├── test_data/
-│ └── AIS_0001/
-│ ├── cta.nii.gz
-│ ├── ncct.nii.gz
-│ └── mask.nii.gz
-├── outputs/ # Automatically created results
-└── .gitignore
+roi_extraction_pipeline/\
+├── roi_extraction.py # Main pipeline script\
+├── README.md # This guide\
+├── requirements.txt # Dependencies\
+├── atlas/\
+│ ├── atlas_image.nii.gz # Your reference atlas image\
+│ └── roi_box.json # ROI defined in 3D Slicer\
+├── test_data/\
+│ └── AIS_0001/\
+│ ├── cta.nii.gz\
+│ ├── ncct.nii.gz\
+│ └── mask.nii.gz\
+├── outputs/ # Automatically created results\
+└── .gitignore\
 
 ---
 
