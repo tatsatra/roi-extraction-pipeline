@@ -67,7 +67,7 @@ python roi_extraction.py \
   --roi_json atlas/roi_box.json \
   --input_dir test_data \
   --output_dir outputs
-'''
+```
 
 Each subfolder in test_data/ must have:
 - cta.nii.gz
@@ -84,7 +84,7 @@ python roi_extraction.py \
   --mask test_data/AIS_0001/mask.nii.gz \
   --output_dir outputs/AIS_0001 \
   --visualize
-'''
+```
 
 ### 📦 Installation
 Create an environment (recommended):
@@ -92,7 +92,7 @@ Create an environment (recommended):
 python -m venv roi_env
 source roi_env/bin/activate      # or roi_env\\Scripts\\activate on Windows
 pip install -r requirements.txt
-'''
+```
 
 ### 🔧 Dependencies
 - SimpleITK>=2.2
